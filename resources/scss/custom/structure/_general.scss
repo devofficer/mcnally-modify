@@ -1,0 +1,30 @@
+dropzone {
+	.dz-preview {
+		.dz-error-message {
+			top: 73px !important;
+		}
+	}
+}
+
+.preloader-section {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffffa6;
+    z-index: 9999;
+}
+
+.card.card-file {
+	&:hover {
+    	box-shadow: 1px 2px 3px #d6d6d6;
+
+    	.btn {
+	    	display: inline-block;
+	    }
+    }
+    .btn {
+    	display: none;
+    }
+}

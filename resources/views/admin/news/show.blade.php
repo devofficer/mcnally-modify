@@ -1,0 +1,10 @@
+<h1>Title: {{$new->title}}</h1>
+<p>Slug: {{$new->slug}}</p>
+<p>Subtitle: {{$new->subtitle}}</p>
+<p>Description: {{$new->description}}</p>
+<p>Date: {{$new->date}}</p>
+<p>Visibility: {{$new->visibility}}</p>
+<p>Image: {{$new->image}}</p>
+<p>Epigraph: {{$new->epigraph}}</p>
+<a href="/admin/news/edit/{{$new->id}}">Editar</a>
+<a href="/admin/news/delete/{{$new->id}}">Borrar</a>
